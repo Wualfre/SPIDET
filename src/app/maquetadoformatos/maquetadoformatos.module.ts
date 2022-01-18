@@ -15,6 +15,13 @@ import { ResumenderecursosComponent } from './resumenderecursos/resumenderecurso
 import { CurriculumvitaeComponent } from './curriculumvitae/curriculumvitae.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { ErrorComponent } from './error/error.component';
+import { Teseda69pidt03fiComponent } from './teseda69pidt03fi/teseda69pidt03fi.component';
+import { EnclaperdivComponent } from './teseda69pidt03fi/enclaperdiv/enclaperdiv.component';
+import { PerpoyectoComponent } from './teseda69pidt03fi/perpoyecto/perpoyecto.component';
+import { NomevaluadoresComponent } from './teseda69pidt03fi/nomevaluadores/nomevaluadores.component';
+import { ClavepoyComponent } from './teseda69pidt03fi/clavepoy/clavepoy.component';
+import { CrigralevComponent } from './teseda69pidt03fi/crigralev/crigralev.component';
+import { FaviproComponent } from './teseda69pidt03fi/favipro/favipro.component';
 
 
 
@@ -33,7 +40,14 @@ import { ErrorComponent } from './error/error.component';
        BienesmueblesComponent,
        ResumenderecursosComponent,
        CurriculumvitaeComponent,
-       ErrorComponent
+       ErrorComponent,
+       Teseda69pidt03fiComponent,
+       EnclaperdivComponent,
+       PerpoyectoComponent,
+       NomevaluadoresComponent,
+       ClavepoyComponent,
+       CrigralevComponent,
+       FaviproComponent
   ],
   exports: [
     BienesmueblesComponent,
