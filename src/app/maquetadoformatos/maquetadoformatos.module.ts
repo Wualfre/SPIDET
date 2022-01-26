@@ -22,6 +22,7 @@ import { NomevaluadoresComponent } from './teseda69pidt03fi/nomevaluadores/nomev
 import { ClavepoyComponent } from './teseda69pidt03fi/clavepoy/clavepoy.component';
 import { CrigralevComponent } from './teseda69pidt03fi/crigralev/crigralev.component';
 import { FaviproComponent } from './teseda69pidt03fi/favipro/favipro.component';
+import { Formato73Component } from './formato73/formato73.component';
 
 
 
@@ -47,7 +48,8 @@ import { FaviproComponent } from './teseda69pidt03fi/favipro/favipro.component';
        NomevaluadoresComponent,
        ClavepoyComponent,
        CrigralevComponent,
-       FaviproComponent
+       FaviproComponent,
+       Formato73Component
   ],
   exports: [
     BienesmueblesComponent,
