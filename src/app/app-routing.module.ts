@@ -6,6 +6,7 @@ import {ContactoComponent} from "./contacto/contacto.component";
 import {DatosgeneralesComponent} from "./maquetadoformatos/datosgenerales/datosgenerales.component";
 import {Teseda69pidt03fiComponent} from "./maquetadoformatos/teseda69pidt03fi/teseda69pidt03fi.component";
 import {Formato73Component} from "./maquetadoformatos/formato73/formato73.component";
+import {Formato72Component} from "./maquetadoformatos/formato72/formato72.component";
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'contacto', component:ContactoComponent},
   {path: 'teseda69', component:Teseda69pidt03fiComponent},
   {path: 'datosgenerales', component:DatosgeneralesComponent},
+  {path: 'formato72', component:Formato72Component},
   {path: 'formato73', component:Formato73Component,
   loadChildren: () => import('./maquetadoformatos/maquetadoformatos.module').then(m => m.MaquetadoformatosModule)},
 ];

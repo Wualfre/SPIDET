@@ -23,6 +23,7 @@ import { ClavepoyComponent } from './teseda69pidt03fi/clavepoy/clavepoy.componen
 import { CrigralevComponent } from './teseda69pidt03fi/crigralev/crigralev.component';
 import { FaviproComponent } from './teseda69pidt03fi/favipro/favipro.component';
 import { Formato73Component } from './formato73/formato73.component';
+import { Formato72Component } from './formato72/formato72.component';
 
 
 
@@ -49,7 +50,8 @@ import { Formato73Component } from './formato73/formato73.component';
        ClavepoyComponent,
        CrigralevComponent,
        FaviproComponent,
-       Formato73Component
+       Formato73Component,
+       Formato72Component
   ],
   exports: [
     BienesmueblesComponent,
